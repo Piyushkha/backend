@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const uri = "mongodb://localhost:27017/mytask"
+const uri = "mongodb://44.207.233.97/mytask"
 
 mongoose.connect(uri,(err,cb)=>{
     if(err) throw err
